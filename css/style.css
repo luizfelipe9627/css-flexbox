@@ -1,20 +1,67 @@
-.flex-container {
+.flex-container1 {
   /* Torna o container flexível. */
   display: flex; 
-  /* Transforma os items em colunas. */
-  /* flex-direction: column; */ 
   /* Usado para alinhar os itens horizontalmente. */
   justify-content: space-between;
   /* Está sendo usado para permitir quebra de linhas. */
   flex-wrap: wrap;
   background-color: blue;
+  margin-bottom: 20px;
 }
 
-.item {
+.item1 {
   background-color: aquamarine;
   padding: 15px;
   margin: 10px;
   font-size: 20px;
   font-weight: bold;
-  width: 50px;
+  width: 15vw;
 }
+
+.flex-container2 {
+  /* Torna o container flexível. */
+  display: flex;
+  /* Transforma os items em colunas. */
+  flex-direction: column;
+  /* Usado para alinhar os itens verticalmente. */
+  align-items: center;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.item2 {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 70vw;
+}
+
+.item2:first-child {
+  /* Usado para posicionar individualmente um filho de uma Div. */
+  align-self: start;
+}
+
+.item2:last-child {
+  /* Usado para posicionar individualmente um filho de uma Div. */
+  align-self: flex-end;
+}
+
+.flex-container3 {
+  /* Torna o container flexível. */
+  display: flex;
+  /* Usado para alinhar os itens horizontalmente. */
+  justify-content: flex-end;
+  background-color: blueviolet;
+}
+
+.item3 {
+  background-color: brown;
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+}
+
