@@ -1,0 +1,20 @@
+.flex-container {
+  /* Torna o container flexível. */
+  display: flex; 
+  /* Transforma os items em colunas. */
+  /* flex-direction: column; */ 
+  /* Usado para alinhar os itens horizontalmente. */
+  justify-content: space-between;
+  /* Está sendo usado para permitir quebra de linhas. */
+  flex-wrap: wrap;
+  background-color: blue;
+}
+
+.item {
+  background-color: aquamarine;
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50px;
+}
